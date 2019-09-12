@@ -22,13 +22,13 @@
 //const int sleepTimeS = 60;
 
 //Wi Fi
-const char* ssid     = "TARDIS 2.4";         // The SSID (name) of the Wi-Fi network you want to connect to
-const char* password = "chiottinoop&lusc";  
+const char* ssid     = "SSID";         // The SSID (name) of the Wi-Fi network you want to connect to
+const char* password = "Wifipwd";  
 
 //DomoticZ
-const char* host = "192.168.1.112"; //Domoticz, i'm calling you
-const int httpPort1 = 8080;
-const int httpPort2 = 80;
+const char* host = "***.***.***.***"; //Domoticz IP
+const int httpPort1 = 8080; //DomoticZ Port
+const int httpPort2 = 80; //Web Meteo station port
 
 //Static IP address configuration
 IPAddress staticIP(192, 168, 1, 41); //ESP static ip
